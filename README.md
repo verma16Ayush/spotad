@@ -19,3 +19,6 @@ pip install -r requirements.txt
 
 ## Run
 Once above steps are done you can simply play music and run this in the background. Or better yet, make this script a daemon. Follow [this](https://stackoverflow.com/questions/1603109/how-to-make-a-python-script-run-like-a-service-or-daemon-in-linux)
+
+---
+Tested only on Ubuntu 20.04
