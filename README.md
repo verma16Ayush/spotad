@@ -1,6 +1,6 @@
 # Navigate around spotify ads
 
-Here's a simple script that simply mutes your master audio
+Here's a simple script that mutes your master audio
 if spotify starts playing an ad. Then unmutes once the ad is
 over. 
 
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 5. Paste your spotify username in the username placeholder in `'.env'` file
 
 ## Run
-Once above steps are done you can simply play music and run this in the background. Or better yet, make this script a daemon. Follow [this](https://stackoverflow.com/questions/1603109/how-to-make-a-python-script-run-like-a-service-or-daemon-in-linux)
+Once above steps are done you can play music and run this in the background. Or better yet, make this script a daemon. You might need to add a hashbang at the top. Follow [this](https://stackoverflow.com/questions/1603109/how-to-make-a-python-script-run-like-a-service-or-daemon-in-linux)
 
 ---
 Tested only on Ubuntu 20.04
